@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "app/*": ["src/app/*"],
+      "components/*": ["src/components/*"],
+      "state/*": ["src/state/*"],
+      "types/*": ["src/types/*"],
+      "api/*": ["src/api/*"],
+      "constants/*": ["src/constants/*"],
+      "providers/*": ["src/providers/*"],
+      "pages/*": ["src/pages/*"],
+      "hooks/*": ["src/hooks/*"],
+      "utils/*": ["src/utils/*"],
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"],
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

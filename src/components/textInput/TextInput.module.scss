@@ -1,0 +1,31 @@
+.input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #D8E2E6;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 16px;
+  background-color: #ffffff;
+
+  &[aria-invalid="true"] {
+    border-color: #FF3336;
+
+    &:focus-visible {
+      border-color: #FF3336;
+      outline: none;
+    }
+  }
+}
+
+.errorMessage {
+  font-size: 12px;
+  font-weight: 400;
+  color: #FF3336;
+}
+
+.formGroup {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  width: 100%;
+}

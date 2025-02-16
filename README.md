@@ -10,9 +10,9 @@
 3. For start editing code, run the next command:
 
 ```
-  npm run start
+  npm run dev
 ```
-Then go to [http://localhost:8080](http://localhost:8080).
+Then go to [http://localhost:5173](http://localhost:5173).
 And now you can work with project.
 In this script a watcher will be run automatically.
 
@@ -21,4 +21,3 @@ In this script a watcher will be run automatically.
   npm run build
 ```
 Then you can copy files from the **build** folder and paste to any host.
-
